@@ -57,3 +57,12 @@ test('выбор новости среди событий одного дня', 
   assert.strictEqual(u.pick.a.url, 'u/usm');
   assert.strictEqual(u.pick.shift, 2);
 });
+
+test('дата: опечатка в годе и многодневная поездка', () => {
+  assert.strictEqual(fileDate('02.04.019 Chemolgan S obshestvennostyu X.O.,xcode mix,79.1'), '02.04.2019');
+  assert.strictEqual(fileDate('26-28.04.19. Elbasy. KNR. 26.04. Prilet. X.O.,xcode mix,141.1'), '26.04.2019');
+  assert.strictEqual(fileDate('26-28.04.19. Elbasy. KNR. 27.04.Forum. Brifing. Kulmanov.,xcode mix,112.1'), '27.04.2019');
+  assert.strictEqual(fileDate('26-28.04.19. Elbasy. KNR. 28.04. Vstrecha s Si Czinpin. X.O.,xcode mix,110.1'), '28.04.2019');
+  assert.strictEqual(fileDate('23.04.19_19_Siezd_Nur_Otan_PGM_C0001_zanovo'), '23.04.2019');
+  assert.strictEqual(fileDate('ANK PTS'), '');
+});

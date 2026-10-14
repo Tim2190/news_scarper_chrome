@@ -44,7 +44,9 @@ const STOP = new Set(['elbasy','elbasi','vstrecha','vsttrecha','vstreca','krupn'
   'otkr','vruch','kongress','mejdunognogo','upravl','ministrom','predsedatelem','poslom','kaz','molodym','socialnyi',
   'zachity','naseleniya','inostrannyh','del','i','s','v','na','po','iz',
   // операторы / камеры
-  'djavatarov','dzhavatarov','kulmanov','tlespaev','batkeev','omarkulov','abilov','malikov','ahmetov','ali']
+  'djavatarov','dzhavatarov','kulmanov','tlespaev','tlespayev','batkeev','omarkulov','abilov','malikov','ahmetov','ali',
+  'ismailov','kakimbaev','kakimbayev','kerimkulov','abdrahmanov','jaitikov','baigereev','omargaliev','ahm','dezhurn',
+  'specrep','tjk','sokr','zanovo','krup','krupniy','operator','kanal','dlyz','pts','rassh']
   .map(skeleton));
 
 // Сокращения из имён файлов → слова, которые встретятся в тексте новости.
@@ -55,17 +57,31 @@ const EXPAND = {
   mfca: ['международный', 'финансовый', 'центр'],
   usa: ['сша'],
   aoo: ['назарбаев', 'университет'],
+  ank: ['ассамблеи', 'народа', 'казахстана'],
+  knr: ['китайской', 'народной', 'республики'],
+  nurotan: ['otan'],
+  siezd: ['съезд'],
+  fok: ['физкультурно', 'оздоровительного', 'комплекса'],
+  smi: ['средств', 'массовой', 'информации'],
+  korei: ['корея'],
 };
 
 const pad = n => String(n).padStart(2, '0');
 
-// Дата из имени файла: 01.05.19, 01.05.2019, 13_05_2019, 2019-05-13 → 'ДД.ММ.ГГГГ'.
+// Дата из имени файла: 01.05.19, 01.05.2019, 02.04.019, 13_05_2019, 2019-05-13 → 'ДД.ММ.ГГГГ'.
+// Поездка «26-28.04.19. … 27.04. …» → конкретный день внутри (27.04.2019), иначе первый день.
 function fileDate(name) {
-  let m = name.match(/(?<!\d)(\d{1,2})[._\-](\d{1,2})[._\-](\d{4}|\d{2})(?!\d)/);
-  if (m) {
-    const y = m[3].length === 2 ? '20' + m[3] : m[3];
-    if (+m[2] >= 1 && +m[2] <= 12 && +m[1] >= 1 && +m[1] <= 31) return `${pad(m[1])}.${pad(m[2])}.${y}`;
+  const ok = (d, m) => +m >= 1 && +m <= 12 && +d >= 1 && +d <= 31;
+  const year = y => y.length === 4 ? y : '20' + y.slice(-2);
+  let m = name.match(/(?<!\d)(\d{1,2})-(\d{1,2})[._](\d{1,2})[._](\d{4}|\d{2,3})(?!\d)/);
+  if (m && ok(m[2], m[3])) {
+    const rest = name.slice(m.index + m[0].length);
+    const inner = rest.match(/(?<!\d)(\d{1,2})\.(\d{2})(?![\d])/);
+    if (inner && inner[2] === pad(m[3]) && +inner[1] >= +m[1] && +inner[1] <= +m[2]) return `${pad(inner[1])}.${inner[2]}.${year(m[4])}`;
+    return `${pad(m[1])}.${pad(m[3])}.${year(m[4])}`;
   }
+  for (const x of name.matchAll(/(?<!\d)(\d{1,2})[._\-](\d{1,2})[._\-](\d{4}|\d{2,3})(?!\d)/g))
+    if (ok(x[1], x[2])) return `${pad(x[1])}.${pad(x[2])}.${year(x[3])}`;
   m = name.match(/(?<!\d)(\d{4})-(\d{2})-(\d{2})(?!\d)/);
   if (m) return `${m[3]}.${m[2]}.${m[1]}`;
   return '';

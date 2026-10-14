@@ -1,0 +1,106 @@
+{
+ "_comment": "Ручные уточнения партии «апрель 2019» (список файлов со скриншотов). match — подстрока имени файла.",
+ "exclude": [],
+ "notes": [
+  {
+   "match": "Chemolgan",
+   "check": "Чемолган = с.Шамалган Карасайского района (так на сайте)."
+  },
+  {
+   "match": "02.04.19 Chemolgan Kakimbaev",
+   "urls": [
+    "https://nazarbayev.kz/ru/news/2019-04/vstrecha-pervogo-prezidenta-respubliki-kazakhstan-elbasy-s-obschestvennostyu",
+    "https://nazarbayev.kz/ru/news/2019-04/poseschenie-pervym-prezidentom-respubliki-kazakhstan-elbasy-fizkulturno",
+    "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-vstretilsya-s-odnoklassnikami"
+   ],
+   "lead": "Поездка Первого Президента РК – Елбасы Н.А.Назарбаева в Карасайский район Алматинской области (с.Шамалган).",
+   "check": "В имени файла не указано событие; в этот день было три: встреча с общественностью, посещение ФОК, встреча с одноклассниками. Уточнить по видео."
+  },
+  {
+   "match": "Prilet Elbasy s molodejyu",
+   "lead": "Прибытие Первого Президента РК – Елбасы Н.А.Назарбаева в с.Шамалган, встреча с молодёжью.",
+   "check": "Прилёт и встреча с молодёжью — отдельной новости нет, ссылка на новость о встрече с общественностью."
+  },
+  {
+   "match": "10.04.19 Nur Otan s Elbasy",
+   "urls": [
+    "https://nazarbayev.kz/ru/news/2019-04/predsedatel-partii-nur-otan-nursultan-nazarbaev-provel-soveschanie-s-uchastiem"
+   ]
+  },
+  {
+   "match": "Vystavka pered Nur Otan",
+   "urls": [
+    "https://nazarbayev.kz/ru/news/2019-04/predsedatel-partii-nur-otan-nursultan-nazarbaev-provel-soveschanie-s-uchastiem"
+   ],
+   "lead": "Выставка в центральном аппарате партии «Nur Otan» перед совещанием.",
+   "check": "Отдельной новости о выставке нет — ссылка на новость о совещании в партии."
+  },
+  {
+   "match": "Soveshanie po stolice",
+   "check": "На сайте: Елбасы ознакомился с планами развития столицы."
+  },
+  {
+   "match": "26.04. Prilet",
+   "urls": [
+    "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-respubliki-kazakhstan-elbasy-prinyal-uchastie-v-ceremonii-otkrytiya"
+   ],
+   "lead": "Визит Первого Президента РК – Елбасы Н.А.Назарбаева в КНР (26–28.04.2019). Прилёт в Пекин.",
+   "own_only": true,
+   "check": "Отдельной новости о прилёте нет; ссылка — на новость о форуме 26.04."
+  },
+  {
+   "match": "Pribytie na Forum. Fotografirovanie",
+   "lead": "Прибытие Елбасы на Второй форум международного сотрудничества «Один пояс, один путь». Церемония фотографирования."
+  },
+  {
+   "match": "27.04",
+   "urls": [
+    "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-predlozhil-novuyu-geopoliticheskuyu-realnost-tri-d"
+   ],
+   "lead": "Второй форум международного сотрудничества «Один пояс, один путь», 27.04.2019. Брифинг Председателя КНР Си Цзиньпина.",
+   "check": "Брифинг — отдельной новости нет; ссылка на новость о выступлении Елбасы на сессии форума 27.04."
+  },
+  {
+   "match": "28.04. Otlet",
+   "urls": [
+    "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-nagrazhden-ordenom-druzhby-kitayskoy-narodnoy-respubliki"
+   ],
+   "lead": "Визит Первого Президента РК – Елбасы Н.А.Назарбаева в КНР (26–28.04.2019). Отлёт из Пекина.",
+   "own_only": true,
+   "check": "Отдельной новости об отлёте нет; ссылка — на новость 28.04."
+  },
+  {
+   "match": "28.04. Vstrecha s Si Czinpin",
+   "urls": [
+    "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-nagrazhden-ordenom-druzhby-kitayskoy-narodnoy-respubliki"
+   ],
+   "lead": "Встреча Первого Президента РК – Елбасы Н.А.Назарбаева с Председателем КНР Си Цзиньпином в Доме народных собраний."
+  },
+  {
+   "match": "Rassh.Vstrecha. Orden",
+   "urls": [
+    "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-nagrazhden-ordenom-druzhby-kitayskoy-narodnoy-respubliki"
+   ],
+   "lead": "Встреча в расширенном составе и церемония вручения Елбасы Ордена Дружбы КНР."
+  },
+  {
+   "match": "FNK_Omargaliev",
+   "urls": [
+    "https://nazarbayev.kz/ru/news/2019-04/xxvii-sessiya-assamblei-naroda-kazakhstana-pod-predsedatelstvom-pervogo-prezidenta"
+   ],
+   "check": "«FNK» не расшифровано; по дате — сессия АНК 29.04. Проверить по видео."
+  },
+  {
+   "match": "ANK PTS",
+   "urls": [
+    "https://nazarbayev.kz/ru/news/2019-04/xxvii-sessiya-assamblei-naroda-kazakhstana-pod-predsedatelstvom-pervogo-prezidenta"
+   ],
+   "date": "29.04.2019",
+   "check": "В имени нет даты; по «ANK» — XXVII сессия АНК 29.04.2019. Проверить."
+  },
+  {
+   "match": "23.04.19 NurOtan s Elbasy",
+   "check": "«TJK» не расшифровано."
+  }
+ ]
+}

@@ -1,0 +1,1892 @@
+[
+ {
+  "id": "01.05.19 Den edinstva naroda s Elbasy-Djavatarov XO AO-01.05.2019,xcode mix,393.1",
+  "date": "01.05.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-05/elbasy-nursultan-nazarbaev-posetil-narodnye-gulyaniya-po-sluchayu-prazdnovaniya-dnya",
+  "score": 28,
+  "hits": [
+   "edinstva",
+   "naroda"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/xxvii-sessiya-assamblei-naroda-kazakhstana-pod-predsedatelstvom-pervogo-prezidenta",
+    "score": 6.3
+   }
+  ]
+ },
+ {
+  "id": "02.04.019 Chemolgan S obshestvennostyu X.O.,xcode mix,79.1",
+  "date": "02.04.2019",
+  "conf": "средняя",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/vstrecha-pervogo-prezidenta-respubliki-kazakhstan-elbasy-s-obschestvennostyu",
+  "score": 16,
+  "hits": [
+   "obsestvenostu"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/soveschanie-pod-predsedatelstvom-pervogo-prezidenta-respubliki-kazakhstan-elbasy",
+    "score": 4
+   }
+  ]
+ },
+ {
+  "id": "02.04.19 Chemolgan Elbasy s obshest Tlespaev sokr.,xcode mix,139.1",
+  "date": "02.04.2019",
+  "conf": "средняя",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/vstrecha-pervogo-prezidenta-respubliki-kazakhstan-elbasy-s-obschestvennostyu",
+  "score": 12,
+  "hits": [
+   "obsest"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/soveschanie-pod-predsedatelstvom-pervogo-prezidenta-respubliki-kazakhstan-elbasy",
+    "score": 3
+   }
+  ]
+ },
+ {
+  "id": "02.04.19 CHemolgan FOK Tlespaev,xcode mix,107.1",
+  "date": "02.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/poseschenie-pervym-prezidentom-respubliki-kazakhstan-elbasy-fizkulturno",
+  "score": 48,
+  "hits": [
+   "fizkulturno",
+   "ozdorovitelnogo",
+   "kompleksa"
+  ],
+  "alts": []
+ },
+ {
+  "id": "02.04.19 Chemolgan FOK X.O.,xcode mix,137.1",
+  "date": "02.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/poseschenie-pervym-prezidentom-respubliki-kazakhstan-elbasy-fizkulturno",
+  "score": 48,
+  "hits": [
+   "fizkulturno",
+   "ozdorovitelnogo",
+   "kompleksa"
+  ],
+  "alts": []
+ },
+ {
+  "id": "02.04.19 Chemolgan Kakimbaev,xcode mix,106.1",
+  "date": "02.04.2019",
+  "conf": "низкая — нет совпадений слов",
+  "url": "",
+  "score": 0,
+  "hits": [],
+  "alts": []
+ },
+ {
+  "id": "02.04.19 Chemolgan Odnoklassniki X.O.,xcode mix,138.1",
+  "date": "02.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-vstretilsya-s-odnoklassnikami",
+  "score": 14.7,
+  "hits": [
+   "odnoklasniki"
+  ],
+  "alts": []
+ },
+ {
+  "id": "02.04.19 Chemolgan Prilet Elbasy s molodejyu  E.Kerimkulov,xcode mix,108.1",
+  "date": "02.04.2019",
+  "conf": "средняя",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/vstrecha-pervogo-prezidenta-respubliki-kazakhstan-elbasy-s-obschestvennostyu",
+  "score": 6,
+  "hits": [
+   "molodeu"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/soveschanie-pod-predsedatelstvom-pervogo-prezidenta-respubliki-kazakhstan-elbasy",
+    "score": 3
+   }
+  ]
+ },
+ {
+  "id": "03.04.19 Soeshanie Elbasy M.Abdrahmanov,xcode mix,150.1",
+  "date": "03.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/soveschanie-pod-predsedatelstvom-pervogo-prezidenta-respubliki-kazakhstan-elbasy",
+  "score": 12,
+  "hits": [
+   "soesanie"
+  ],
+  "alts": []
+ },
+ {
+  "id": "03.04.19 Soveshanie Elbasy B.Malikov.1",
+  "date": "03.04.2019",
+  "conf": "средняя",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/soveschanie-pod-predsedatelstvom-pervogo-prezidenta-respubliki-kazakhstan-elbasy",
+  "score": 16,
+  "hits": [
+   "sovesanie"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-respubliki-kazakhstan-elbasy-prinyal-prezidenta-mezhdunarodnoy",
+    "score": 2.2
+   }
+  ]
+ },
+ {
+  "id": "03.04.19 Soveshanie Elbasy N.Kulmanov.1",
+  "date": "03.04.2019",
+  "conf": "средняя",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/soveschanie-pod-predsedatelstvom-pervogo-prezidenta-respubliki-kazakhstan-elbasy",
+  "score": 16,
+  "hits": [
+   "sovesanie"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-respubliki-kazakhstan-elbasy-prinyal-prezidenta-mezhdunarodnoy",
+    "score": 2.2
+   }
+  ]
+ },
+ {
+  "id": "03.04.19 Soveshanie Elbasy X.O.1",
+  "date": "03.04.2019",
+  "conf": "средняя",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/soveschanie-pod-predsedatelstvom-pervogo-prezidenta-respubliki-kazakhstan-elbasy",
+  "score": 16,
+  "hits": [
+   "sovesanie"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-respubliki-kazakhstan-elbasy-prinyal-prezidenta-mezhdunarodnoy",
+    "score": 2.2
+   }
+  ]
+ },
+ {
+  "id": "04.04.19 Vstrecha Elbasy s E.Dosaevym. Batkeev.1",
+  "date": "04.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-respubliki-kazakhstan-elbasy-nursultan-nazarbaev-vstretilsya-s",
+  "score": 16,
+  "hits": [
+   "dosaevim"
+  ],
+  "alts": []
+ },
+ {
+  "id": "04.04.19 Vstrecha Elbasy s E.Dosaevym. Ismailov.1",
+  "date": "04.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-respubliki-kazakhstan-elbasy-nursultan-nazarbaev-vstretilsya-s",
+  "score": 16,
+  "hits": [
+   "dosaevim"
+  ],
+  "alts": []
+ },
+ {
+  "id": "04.04.19 Vstrecha Elbasy s E.Dosaevym. X.O.1",
+  "date": "04.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-respubliki-kazakhstan-elbasy-nursultan-nazarbaev-vstretilsya-s",
+  "score": 16,
+  "hits": [
+   "dosaevim"
+  ],
+  "alts": []
+ },
+ {
+  "id": "04.04.19 Vstrecha Elbasy s Zh.Tuimebaevym. Batkeev.1",
+  "date": "04.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-prinyal-zaveduyuschego-sekretariatom-zamestitelya",
+  "score": 14.4,
+  "hits": [
+   "tuimebaevim"
+  ],
+  "alts": []
+ },
+ {
+  "id": "04.04.19 Vstrecha Elbasy s Zh.Tuimebaevym. Ismailov.1",
+  "date": "04.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-prinyal-zaveduyuschego-sekretariatom-zamestitelya",
+  "score": 14.4,
+  "hits": [
+   "tuimebaevim"
+  ],
+  "alts": []
+ },
+ {
+  "id": "04.04.19 Vstrecha Elbasy s Zh.Tuimebaevym. X.O.1",
+  "date": "04.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-prinyal-zaveduyuschego-sekretariatom-zamestitelya",
+  "score": 14.4,
+  "hits": [
+   "tuimebaevim"
+  ],
+  "alts": []
+ },
+ {
+  "id": "05.04.19 Vstrecha Elbasy s D.Kydyrali. Batkeev.1",
+  "date": "05.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-respubliki-kazakhstan-elbasy-prinyal-prezidenta-mezhdunarodnoy",
+  "score": 16,
+  "hits": [
+   "kidirali"
+  ],
+  "alts": []
+ },
+ {
+  "id": "05.04.19 Vstrecha Elbasy s D.Kydyrali. Ismailov.1",
+  "date": "05.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-respubliki-kazakhstan-elbasy-prinyal-prezidenta-mezhdunarodnoy",
+  "score": 16,
+  "hits": [
+   "kidirali"
+  ],
+  "alts": []
+ },
+ {
+  "id": "05.04.19 Vstrecha Elbasy s D.Kydyrali. X.O.1",
+  "date": "05.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-respubliki-kazakhstan-elbasy-prinyal-prezidenta-mezhdunarodnoy",
+  "score": 16,
+  "hits": [
+   "kidirali"
+  ],
+  "alts": []
+ },
+ {
+  "id": "09.04.19 Vstrecha Elbasy s B.Atamkulovym. Batkeev.1",
+  "date": "09.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-respubliki-kazakhstan-elbasy-prinyal-ministra-inostrannykh-del",
+  "score": 8,
+  "hits": [
+   "atamkulovim"
+  ],
+  "alts": []
+ },
+ {
+  "id": "09.04.19 Vstrecha Elbasy s B.Atamkulovym. Ismailov.1",
+  "date": "09.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-respubliki-kazakhstan-elbasy-prinyal-ministra-inostrannykh-del",
+  "score": 8,
+  "hits": [
+   "atamkulovim"
+  ],
+  "alts": []
+ },
+ {
+  "id": "09.04.19 Vstrecha Elbasy s B.Atamkulovym. X.O.1",
+  "date": "09.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-respubliki-kazakhstan-elbasy-prinyal-ministra-inostrannykh-del",
+  "score": 8,
+  "hits": [
+   "atamkulovim"
+  ],
+  "alts": []
+ },
+ {
+  "id": "10.04.19 Nur Otan s Elbasy krup.plan.1",
+  "date": "10.04.2019",
+  "conf": "низкая — несколько равных вариантов",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/predsedatel-partii-nur-otan-elbasy-nursultan-nazarbaev-podpisal-postanovlenie-o-sozyve",
+  "score": 8,
+  "hits": [
+   "otan"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/predsedatel-partii-nur-otan-nursultan-nazarbaev-provel-soveschanie-s-uchastiem",
+    "score": 8
+   }
+  ]
+ },
+ {
+  "id": "10.04.19 Nur Otan s Elbasy X.O. _ J.Abilov,xcode mix,5.1",
+  "date": "10.04.2019",
+  "conf": "низкая — несколько равных вариантов",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/predsedatel-partii-nur-otan-elbasy-nursultan-nazarbaev-podpisal-postanovlenie-o-sozyve",
+  "score": 8,
+  "hits": [
+   "otan"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/predsedatel-partii-nur-otan-nursultan-nazarbaev-provel-soveschanie-s-uchastiem",
+    "score": 8
+   }
+  ]
+ },
+ {
+  "id": "10.04.19 Vystavka pered Nur Otan X.O. _D.Tl_J.Ahm,xcode mix,110.1",
+  "date": "10.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/predsedatel-partii-nur-otan-nursultan-nazarbaev-provel-soveschanie-s-uchastiem",
+  "score": 13,
+  "hits": [
+   "pered",
+   "otan"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/predsedatel-partii-nur-otan-elbasy-nursultan-nazarbaev-podpisal-postanovlenie-o-sozyve",
+    "score": 8
+   }
+  ]
+ },
+ {
+  "id": "13_05_2019_Centr_Zelenyh_Tehnologii_SBS_042.2",
+  "date": "13.05.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-05/elbasy-nursultan-nazarbaev-posetil-mezhdunarodnyy-centr-zelenykh-tekhnologiy-i",
+  "score": 40,
+  "hits": [
+   "centr",
+   "zelenih",
+   "tehnologi"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-05/pervyy-prezident-kazakhstana-prinyal-upravlyayuschego-mezhdunarodnym-finansovym",
+    "score": 10
+   }
+  ]
+ },
+ {
+  "id": "15.04.19 Vstrecha Elbasy s G.Nurdauletovym. Batkeev.1",
+  "date": "15.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-prinyal-generalnogo-prokurora-gizata-nurdauletova",
+  "score": 14.7,
+  "hits": [
+   "nurdauletovim"
+  ],
+  "alts": []
+ },
+ {
+  "id": "15.04.19 Vstrecha Elbasy s G.Nurdauletovym. Ismailov.1",
+  "date": "15.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-prinyal-generalnogo-prokurora-gizata-nurdauletova",
+  "score": 14.7,
+  "hits": [
+   "nurdauletovim"
+  ],
+  "alts": []
+ },
+ {
+  "id": "15.04.19 Vstrecha Elbasy s G.Nurdauletovym. X.O.1",
+  "date": "15.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-prinyal-generalnogo-prokurora-gizata-nurdauletova",
+  "score": 14.7,
+  "hits": [
+   "nurdauletovim"
+  ],
+  "alts": []
+ },
+ {
+  "id": "18.04.19 Vstrecha Elbasy s N.Ermekbaevym. Batkeev.1",
+  "date": "18.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-respubliki-kazakhstan-elbasy-nursultan-nazarbaev-prinyal-ministra",
+  "score": 8,
+  "hits": [
+   "ermekbaevim"
+  ],
+  "alts": []
+ },
+ {
+  "id": "18.04.19 Vstrecha Elbasy s N.Ermekbaevym. Ismailov.1",
+  "date": "18.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-respubliki-kazakhstan-elbasy-nursultan-nazarbaev-prinyal-ministra",
+  "score": 8,
+  "hits": [
+   "ermekbaevim"
+  ],
+  "alts": []
+ },
+ {
+  "id": "18.04.19 Vstrecha Elbasy s N.Ermekbaevym. X.O.1",
+  "date": "18.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-respubliki-kazakhstan-elbasy-nursultan-nazarbaev-prinyal-ministra",
+  "score": 8,
+  "hits": [
+   "ermekbaevim"
+  ],
+  "alts": []
+ },
+ {
+  "id": "22.04.19 Elbasy i Prez.Korei Poseshenie Biblioteki D.Tlespayev,xcode mix,115.1",
+  "date": "22.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-kazakhstana-nursultan-nazarbaev-vstretilsya-s-prezidentom-respubliki",
+  "score": 26,
+  "hits": [
+   "prez",
+   "korea",
+   "biblioteki"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/resheniem-pervogo-prezidenta-respubliki-kazakhstan-elbasy-mukhtarov-talgat-sabitovich",
+    "score": 8
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/vneocherednoy-khikh-sezd-partii-nur-otan-pod-predsedatelstvom-nursultana-nazarbaeva",
+    "score": 5.1
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-chrezvychaynym-i-polnomochnym-poslom",
+    "score": 4
+   }
+  ]
+ },
+ {
+  "id": "22.04.19 Elbasy i Prez.Korei Poseshenie Biblioteki E.Kakimbayev,xcode mix,86.1",
+  "date": "22.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-kazakhstana-nursultan-nazarbaev-vstretilsya-s-prezidentom-respubliki",
+  "score": 26,
+  "hits": [
+   "prez",
+   "korea",
+   "biblioteki"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/resheniem-pervogo-prezidenta-respubliki-kazakhstan-elbasy-mukhtarov-talgat-sabitovich",
+    "score": 8
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/vneocherednoy-khikh-sezd-partii-nur-otan-pod-predsedatelstvom-nursultana-nazarbaeva",
+    "score": 5.1
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-chrezvychaynym-i-polnomochnym-poslom",
+    "score": 4
+   }
+  ]
+ },
+ {
+  "id": "22.04.19 Elbasy i Prez.Korei Poseshenie Biblioteki J.Abilov,xcode mix,87.1",
+  "date": "22.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-kazakhstana-nursultan-nazarbaev-vstretilsya-s-prezidentom-respubliki",
+  "score": 26,
+  "hits": [
+   "prez",
+   "korea",
+   "biblioteki"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/resheniem-pervogo-prezidenta-respubliki-kazakhstan-elbasy-mukhtarov-talgat-sabitovich",
+    "score": 8
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/vneocherednoy-khikh-sezd-partii-nur-otan-pod-predsedatelstvom-nursultana-nazarbaeva",
+    "score": 5.1
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-chrezvychaynym-i-polnomochnym-poslom",
+    "score": 4
+   }
+  ]
+ },
+ {
+  "id": "22.04.19 Elbasy i Prez.Korei Poseshenie Biblioteki X.O.,xcode mix,113.1",
+  "date": "22.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-kazakhstana-nursultan-nazarbaev-vstretilsya-s-prezidentom-respubliki",
+  "score": 26,
+  "hits": [
+   "prez",
+   "korea",
+   "biblioteki"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/resheniem-pervogo-prezidenta-respubliki-kazakhstan-elbasy-mukhtarov-talgat-sabitovich",
+    "score": 8
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/vneocherednoy-khikh-sezd-partii-nur-otan-pod-predsedatelstvom-nursultana-nazarbaeva",
+    "score": 5.1
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-chrezvychaynym-i-polnomochnym-poslom",
+    "score": 4
+   }
+  ]
+ },
+ {
+  "id": "22.04.19 Vstrecha Elbasy s Poslom KNR D.Tlespayev,xcode mix,121.1",
+  "date": "22.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-chrezvychaynym-i-polnomochnym-poslom",
+  "score": 48,
+  "hits": [
+   "kitaiskoi",
+   "narodnoi",
+   "respubliki"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-kazakhstana-nursultan-nazarbaev-vstretilsya-s-prezidentom-respubliki",
+    "score": 16
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/resheniem-pervogo-prezidenta-respubliki-kazakhstan-elbasy-mukhtarov-talgat-sabitovich",
+    "score": 16
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/vneocherednoy-khikh-sezd-partii-nur-otan-pod-predsedatelstvom-nursultana-nazarbaeva",
+    "score": 8
+   }
+  ]
+ },
+ {
+  "id": "22.04.19 Vstrecha Elbasy s Poslom KNR E.Kakimbayev.1",
+  "date": "22.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-chrezvychaynym-i-polnomochnym-poslom",
+  "score": 48,
+  "hits": [
+   "kitaiskoi",
+   "narodnoi",
+   "respubliki"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-kazakhstana-nursultan-nazarbaev-vstretilsya-s-prezidentom-respubliki",
+    "score": 16
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/resheniem-pervogo-prezidenta-respubliki-kazakhstan-elbasy-mukhtarov-talgat-sabitovich",
+    "score": 16
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/vneocherednoy-khikh-sezd-partii-nur-otan-pod-predsedatelstvom-nursultana-nazarbaeva",
+    "score": 8
+   }
+  ]
+ },
+ {
+  "id": "22.04.19 Vstrecha Elbasy s Poslom KNR S.Jaitikov.1",
+  "date": "22.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-chrezvychaynym-i-polnomochnym-poslom",
+  "score": 48,
+  "hits": [
+   "kitaiskoi",
+   "narodnoi",
+   "respubliki"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-kazakhstana-nursultan-nazarbaev-vstretilsya-s-prezidentom-respubliki",
+    "score": 16
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/resheniem-pervogo-prezidenta-respubliki-kazakhstan-elbasy-mukhtarov-talgat-sabitovich",
+    "score": 16
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/vneocherednoy-khikh-sezd-partii-nur-otan-pod-predsedatelstvom-nursultana-nazarbaeva",
+    "score": 8
+   }
+  ]
+ },
+ {
+  "id": "22.04.19 Vstrecha Elbasy s Poslom KNR X.O",
+  "date": "22.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-chrezvychaynym-i-polnomochnym-poslom",
+  "score": 48,
+  "hits": [
+   "kitaiskoi",
+   "narodnoi",
+   "respubliki"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-kazakhstana-nursultan-nazarbaev-vstretilsya-s-prezidentom-respubliki",
+    "score": 16
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/resheniem-pervogo-prezidenta-respubliki-kazakhstan-elbasy-mukhtarov-talgat-sabitovich",
+    "score": 16
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/vneocherednoy-khikh-sezd-partii-nur-otan-pod-predsedatelstvom-nursultana-nazarbaeva",
+    "score": 8
+   }
+  ]
+ },
+ {
+  "id": "22.04.19 Vstrecha Elbasy s Prezidentom Korei D.Tlespayev,xcode mix,91.1",
+  "date": "22.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-kazakhstana-nursultan-nazarbaev-vstretilsya-s-prezidentom-respubliki",
+  "score": 26,
+  "hits": [
+   "prezidentom",
+   "korea"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/resheniem-pervogo-prezidenta-respubliki-kazakhstan-elbasy-mukhtarov-talgat-sabitovich",
+    "score": 14.4
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-chrezvychaynym-i-polnomochnym-poslom",
+    "score": 8
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-kazakhstana-oznakomilsya-s-dalneyshimi-planami-razvitiya-stolicy",
+    "score": 8
+   }
+  ]
+ },
+ {
+  "id": "22.04.19 Vstrecha Elbasy s Prezidentom Korei E.Kakimbayev,xcode mix,38.1",
+  "date": "22.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-kazakhstana-nursultan-nazarbaev-vstretilsya-s-prezidentom-respubliki",
+  "score": 26,
+  "hits": [
+   "prezidentom",
+   "korea"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/resheniem-pervogo-prezidenta-respubliki-kazakhstan-elbasy-mukhtarov-talgat-sabitovich",
+    "score": 14.4
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-chrezvychaynym-i-polnomochnym-poslom",
+    "score": 8
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-kazakhstana-oznakomilsya-s-dalneyshimi-planami-razvitiya-stolicy",
+    "score": 8
+   }
+  ]
+ },
+ {
+  "id": "22.04.19 Vstrecha Elbasy s Prezidentom Korei E.Kakimbayev,xcode mix,90.1",
+  "date": "22.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-kazakhstana-nursultan-nazarbaev-vstretilsya-s-prezidentom-respubliki",
+  "score": 26,
+  "hits": [
+   "prezidentom",
+   "korea"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/resheniem-pervogo-prezidenta-respubliki-kazakhstan-elbasy-mukhtarov-talgat-sabitovich",
+    "score": 14.4
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-chrezvychaynym-i-polnomochnym-poslom",
+    "score": 8
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-kazakhstana-oznakomilsya-s-dalneyshimi-planami-razvitiya-stolicy",
+    "score": 8
+   }
+  ]
+ },
+ {
+  "id": "22.04.19 Vstrecha Elbasy s Prezidentom Korei S.Jaitikov,xcode mix,122.1",
+  "date": "22.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-kazakhstana-nursultan-nazarbaev-vstretilsya-s-prezidentom-respubliki",
+  "score": 26,
+  "hits": [
+   "prezidentom",
+   "korea"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/resheniem-pervogo-prezidenta-respubliki-kazakhstan-elbasy-mukhtarov-talgat-sabitovich",
+    "score": 14.4
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-chrezvychaynym-i-polnomochnym-poslom",
+    "score": 8
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-kazakhstana-oznakomilsya-s-dalneyshimi-planami-razvitiya-stolicy",
+    "score": 8
+   }
+  ]
+ },
+ {
+  "id": "22.04.19 Vstrecha Elbasy s Prezidentom Korei X.O.,xcode mix,120.1",
+  "date": "22.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-kazakhstana-nursultan-nazarbaev-vstretilsya-s-prezidentom-respubliki",
+  "score": 26,
+  "hits": [
+   "prezidentom",
+   "korea"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/resheniem-pervogo-prezidenta-respubliki-kazakhstan-elbasy-mukhtarov-talgat-sabitovich",
+    "score": 14.4
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-chrezvychaynym-i-polnomochnym-poslom",
+    "score": 8
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-kazakhstana-oznakomilsya-s-dalneyshimi-planami-razvitiya-stolicy",
+    "score": 8
+   }
+  ]
+ },
+ {
+  "id": "23.04.19 NurOtan s Elbasy. E.Kakimbayev.,xcode mix,119.1",
+  "date": "23.04.2019",
+  "conf": "средняя",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/vneocherednoy-khikh-sezd-partii-nur-otan-pod-predsedatelstvom-nursultana-nazarbaeva",
+  "score": 8,
+  "hits": [
+   "otan"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-predsedatelem-pravleniya-kompanii-alstom-anri",
+    "score": 1.5
+   }
+  ]
+ },
+ {
+  "id": "23.04.19 NurOtan s Elbasy. Specrep",
+  "date": "23.04.2019",
+  "conf": "средняя",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/vneocherednoy-khikh-sezd-partii-nur-otan-pod-predsedatelstvom-nursultana-nazarbaeva",
+  "score": 8,
+  "hits": [
+   "otan"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-predsedatelem-pravleniya-kompanii-alstom-anri",
+    "score": 1.5
+   }
+  ]
+ },
+ {
+  "id": "23.04.19 NurOtan s Elbasy. TJK,xcode mix,111.1",
+  "date": "23.04.2019",
+  "conf": "средняя",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/vneocherednoy-khikh-sezd-partii-nur-otan-pod-predsedatelstvom-nursultana-nazarbaeva",
+  "score": 8,
+  "hits": [
+   "otan"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-predsedatelem-pravleniya-kompanii-alstom-anri",
+    "score": 1.5
+   }
+  ]
+ },
+ {
+  "id": "23.04.19 NurOtan s Elbasy. TJK,xcode mix,124.1",
+  "date": "23.04.2019",
+  "conf": "средняя",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/vneocherednoy-khikh-sezd-partii-nur-otan-pod-predsedatelstvom-nursultana-nazarbaeva",
+  "score": 8,
+  "hits": [
+   "otan"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-predsedatelem-pravleniya-kompanii-alstom-anri",
+    "score": 1.5
+   }
+  ]
+ },
+ {
+  "id": "23.04.19 Soveshanie po stolice. Elbasy. E.Kakimbayev.,xcode mix,123.1",
+  "date": "23.04.2019",
+  "conf": "низкая — несколько равных вариантов",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-kazakhstana-oznakomilsya-s-dalneyshimi-planami-razvitiya-stolicy",
+  "score": 12,
+  "hits": [
+   "stolice"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/vneocherednoy-khikh-sezd-partii-nur-otan-pod-predsedatelstvom-nursultana-nazarbaeva",
+    "score": 12
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/resheniem-pervogo-prezidenta-respubliki-kazakhstan-elbasy-mukhtarov-talgat-sabitovich",
+    "score": 6.7
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/resheniem-pervogo-prezidenta-respubliki-kazakhstan-elbasy-seydgapbarov-kanat",
+    "score": 6.7
+   }
+  ]
+ },
+ {
+  "id": "23.04.19 Soveshanie po stolice. Elbasy. X.O. i J.Abilov.,xcode mix,84.1",
+  "date": "23.04.2019",
+  "conf": "низкая — несколько равных вариантов",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-kazakhstana-oznakomilsya-s-dalneyshimi-planami-razvitiya-stolicy",
+  "score": 12,
+  "hits": [
+   "stolice"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/vneocherednoy-khikh-sezd-partii-nur-otan-pod-predsedatelstvom-nursultana-nazarbaeva",
+    "score": 12
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/resheniem-pervogo-prezidenta-respubliki-kazakhstan-elbasy-mukhtarov-talgat-sabitovich",
+    "score": 6.7
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/resheniem-pervogo-prezidenta-respubliki-kazakhstan-elbasy-seydgapbarov-kanat",
+    "score": 6.7
+   }
+  ]
+ },
+ {
+  "id": "23.04.19 Soveshanie po stolice. Elbasy. X.O. i J.Abilov.,xcode mix,84",
+  "date": "23.04.2019",
+  "conf": "низкая — несколько равных вариантов",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-kazakhstana-oznakomilsya-s-dalneyshimi-planami-razvitiya-stolicy",
+  "score": 12,
+  "hits": [
+   "stolice"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/vneocherednoy-khikh-sezd-partii-nur-otan-pod-predsedatelstvom-nursultana-nazarbaeva",
+    "score": 12
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/resheniem-pervogo-prezidenta-respubliki-kazakhstan-elbasy-mukhtarov-talgat-sabitovich",
+    "score": 6.7
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/resheniem-pervogo-prezidenta-respubliki-kazakhstan-elbasy-seydgapbarov-kanat",
+    "score": 6.7
+   }
+  ]
+ },
+ {
+  "id": "23.04.19 Soveshanie po stolice. Elbasy. X.O. i J.Abilov.,xcode mix,93.1",
+  "date": "23.04.2019",
+  "conf": "низкая — несколько равных вариантов",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-kazakhstana-oznakomilsya-s-dalneyshimi-planami-razvitiya-stolicy",
+  "score": 12,
+  "hits": [
+   "stolice"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/vneocherednoy-khikh-sezd-partii-nur-otan-pod-predsedatelstvom-nursultana-nazarbaeva",
+    "score": 12
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/resheniem-pervogo-prezidenta-respubliki-kazakhstan-elbasy-mukhtarov-talgat-sabitovich",
+    "score": 6.7
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/resheniem-pervogo-prezidenta-respubliki-kazakhstan-elbasy-seydgapbarov-kanat",
+    "score": 6.7
+   }
+  ]
+ },
+ {
+  "id": "23.04.19_19_Siezd_Nur_Otan_KRUP_PL__C0001_zanovo",
+  "date": "23.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/vneocherednoy-khikh-sezd-partii-nur-otan-pod-predsedatelstvom-nursultana-nazarbaeva",
+  "score": 16,
+  "hits": [
+   "sezd",
+   "otan"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-kazakhstana-oznakomilsya-s-dalneyshimi-planami-razvitiya-stolicy",
+    "score": 3
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/resheniem-pervogo-prezidenta-respubliki-kazakhstan-elbasy-seydgapbarov-kanat",
+    "score": 3
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-predsedatelem-pravleniya-kompanii-alstom-anri",
+    "score": 1.5
+   }
+  ]
+ },
+ {
+  "id": "23.04.19_19_Siezd_Nur_Otan_PGM_C0001_zanovo",
+  "date": "23.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/vneocherednoy-khikh-sezd-partii-nur-otan-pod-predsedatelstvom-nursultana-nazarbaeva",
+  "score": 16,
+  "hits": [
+   "sezd",
+   "otan"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-kazakhstana-oznakomilsya-s-dalneyshimi-planami-razvitiya-stolicy",
+    "score": 3
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/resheniem-pervogo-prezidenta-respubliki-kazakhstan-elbasy-seydgapbarov-kanat",
+    "score": 3
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-predsedatelem-pravleniya-kompanii-alstom-anri",
+    "score": 1.5
+   }
+  ]
+ },
+ {
+  "id": "24.04.19 Elbasy vstrecha s Alstom D.Tlespayev,xcode mix,94.1",
+  "date": "24.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-predsedatelem-pravleniya-kompanii-alstom-anri",
+  "score": 12,
+  "hits": [
+   "alstom"
+  ],
+  "alts": []
+ },
+ {
+  "id": "24.04.19 Elbasy vstrecha s Alstom M.Baigereev,xcode mix,125.1",
+  "date": "24.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-predsedatelem-pravleniya-kompanii-alstom-anri",
+  "score": 12,
+  "hits": [
+   "alstom"
+  ],
+  "alts": []
+ },
+ {
+  "id": "24.04.19 Vstrecha Elbasy s V.Orbanom.Batkeev",
+  "date": "24.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-kazakhstana-vstretilsya-s-premer-ministrom-vengrii-viktorom-orbanom",
+  "score": 14,
+  "hits": [
+   "orbanom"
+  ],
+  "alts": []
+ },
+ {
+  "id": "24.04.19 Vstrecha Elbasy s V.Orbanom.Ismailov.1",
+  "date": "24.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-kazakhstana-vstretilsya-s-premer-ministrom-vengrii-viktorom-orbanom",
+  "score": 14,
+  "hits": [
+   "orbanom"
+  ],
+  "alts": []
+ },
+ {
+  "id": "24.04.19 Vstrecha Elbasy s V.Orbanom.X.O.1",
+  "date": "24.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-kazakhstana-vstretilsya-s-premer-ministrom-vengrii-viktorom-orbanom",
+  "score": 14,
+  "hits": [
+   "orbanom"
+  ],
+  "alts": []
+ },
+ {
+  "id": "24.04.2019 Elbasy vstrecha s Alstom X.O.,xcode mix,108.1",
+  "date": "24.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-predsedatelem-pravleniya-kompanii-alstom-anri",
+  "score": 12,
+  "hits": [
+   "alstom"
+  ],
+  "alts": []
+ },
+ {
+  "id": "26.03.19 Rab poezdka v Almaty J.Ahmetov.13",
+  "date": "26.03.2019",
+  "conf": "средняя",
+  "url": "https://nazarbayev.kz/ru/news/2019-03/pervyy-prezident-respubliki-kazakhstan-elbasy-nursultan-nazarbaev-pribyl-v-almaty",
+  "score": 12,
+  "hits": [
+   "almati"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-03/pervyy-prezident-respubliki-kazakhstan-elbasy-nursultan-nazarbaev-provel-ryad-vstrech",
+    "score": 4
+   }
+  ]
+ },
+ {
+  "id": "26.03.19 Rab poezdka v Almaty N.Batkeev.7",
+  "date": "26.03.2019",
+  "conf": "средняя",
+  "url": "https://nazarbayev.kz/ru/news/2019-03/pervyy-prezident-respubliki-kazakhstan-elbasy-nursultan-nazarbaev-pribyl-v-almaty",
+  "score": 12,
+  "hits": [
+   "almati"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-03/pervyy-prezident-respubliki-kazakhstan-elbasy-nursultan-nazarbaev-provel-ryad-vstrech",
+    "score": 4
+   }
+  ]
+ },
+ {
+  "id": "26-28.04.19. Elbasy. KNR. 26.04. Intervyu dlyz SMI. Kulmanov.,xcode mix,144.1",
+  "date": "26.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-otvetil-na-voprosy-kitayskikh-sredstv-massovoy-informacii",
+  "score": 73.1,
+  "hits": [
+   "kitaiskoi",
+   "narodnoi",
+   "respubliki",
+   "intervu",
+   "sredstv",
+   "masovoi",
+   "informaci"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-respubliki-kazakhstan-elbasy-prinyal-uchastie-v-ceremonii-otkrytiya",
+    "score": 32
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-nagrazhden-ordenom-druzhby-kitayskoy-narodnoy-respubliki",
+    "score": 16
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-predlozhil-novuyu-geopoliticheskuyu-realnost-tri-d",
+    "score": 6
+   }
+  ]
+ },
+ {
+  "id": "26-28.04.19. Elbasy. KNR. 26.04. Intervyu dlyz SMI. X.O.1",
+  "date": "26.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-otvetil-na-voprosy-kitayskikh-sredstv-massovoy-informacii",
+  "score": 73.1,
+  "hits": [
+   "kitaiskoi",
+   "narodnoi",
+   "respubliki",
+   "intervu",
+   "sredstv",
+   "masovoi",
+   "informaci"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-respubliki-kazakhstan-elbasy-prinyal-uchastie-v-ceremonii-otkrytiya",
+    "score": 32
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-nagrazhden-ordenom-druzhby-kitayskoy-narodnoy-respubliki",
+    "score": 16
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-predlozhil-novuyu-geopoliticheskuyu-realnost-tri-d",
+    "score": 6
+   }
+  ]
+ },
+ {
+  "id": "26-28.04.19. Elbasy. KNR. 26.04. Prilet. Djavatarov.,xcode mix,116.1",
+  "date": "26.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-respubliki-kazakhstan-elbasy-prinyal-uchastie-v-ceremonii-otkrytiya",
+  "score": 32,
+  "hits": [
+   "kitaiskoi",
+   "narodnoi",
+   "respubliki"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-otvetil-na-voprosy-kitayskikh-sredstv-massovoy-informacii",
+    "score": 22.1
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-nagrazhden-ordenom-druzhby-kitayskoy-narodnoy-respubliki",
+    "score": 16
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/resheniem-pervogo-prezidenta-respubliki-kazakhstan-elbasy-seydgapbarov-kanat",
+    "score": 5.3
+   }
+  ]
+ },
+ {
+  "id": "26-28.04.19. Elbasy. KNR. 26.04. Prilet. X.O.,xcode mix,141.1",
+  "date": "26.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-respubliki-kazakhstan-elbasy-prinyal-uchastie-v-ceremonii-otkrytiya",
+  "score": 32,
+  "hits": [
+   "kitaiskoi",
+   "narodnoi",
+   "respubliki"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-otvetil-na-voprosy-kitayskikh-sredstv-massovoy-informacii",
+    "score": 22.1
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-nagrazhden-ordenom-druzhby-kitayskoy-narodnoy-respubliki",
+    "score": 16
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/resheniem-pervogo-prezidenta-respubliki-kazakhstan-elbasy-seydgapbarov-kanat",
+    "score": 5.3
+   }
+  ]
+ },
+ {
+  "id": "26-28.04.19. Elbasy. KNR. 26.04. Vtoroi Forum Poyas-Put. PTS KNR.,xcode mix,142.1",
+  "date": "26.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-respubliki-kazakhstan-elbasy-prinyal-uchastie-v-ceremonii-otkrytiya",
+  "score": 60,
+  "hits": [
+   "kitaiskoi",
+   "narodnoi",
+   "respubliki",
+   "vtoroi",
+   "forum",
+   "poas"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-otvetil-na-voprosy-kitayskikh-sredstv-massovoy-informacii",
+    "score": 26.1
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-nagrazhden-ordenom-druzhby-kitayskoy-narodnoy-respubliki",
+    "score": 21
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-predlozhil-novuyu-geopoliticheskuyu-realnost-tri-d",
+    "score": 7.5
+   }
+  ]
+ },
+ {
+  "id": "26-28.04.19. Elbasy. KNR. 26.04. Vtoroi Forum Poyas-Put. X.O.,xcode mix,140.1",
+  "date": "26.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-respubliki-kazakhstan-elbasy-prinyal-uchastie-v-ceremonii-otkrytiya",
+  "score": 60,
+  "hits": [
+   "kitaiskoi",
+   "narodnoi",
+   "respubliki",
+   "vtoroi",
+   "forum",
+   "poas"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-otvetil-na-voprosy-kitayskikh-sredstv-massovoy-informacii",
+    "score": 26.1
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-nagrazhden-ordenom-druzhby-kitayskoy-narodnoy-respubliki",
+    "score": 21
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-predlozhil-novuyu-geopoliticheskuyu-realnost-tri-d",
+    "score": 7.5
+   }
+  ]
+ },
+ {
+  "id": "26-28.04.19. Elbasy. KNR. 26.04.Pribytie na Forum. Fotografirovanie. X.O.,xcode mix,109.1",
+  "date": "26.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-respubliki-kazakhstan-elbasy-prinyal-uchastie-v-ceremonii-otkrytiya",
+  "score": 42,
+  "hits": [
+   "kitaiskoi",
+   "narodnoi",
+   "respubliki",
+   "forum"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-otvetil-na-voprosy-kitayskikh-sredstv-massovoy-informacii",
+    "score": 22.1
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-nagrazhden-ordenom-druzhby-kitayskoy-narodnoy-respubliki",
+    "score": 17.7
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/resheniem-pervogo-prezidenta-respubliki-kazakhstan-elbasy-seydgapbarov-kanat",
+    "score": 5.3
+   }
+  ]
+ },
+ {
+  "id": "26-28.04.19. Elbasy. KNR. 27.04. Brifing Si Czinpin. Dzhavatarov.,xcode mix,113.1",
+  "date": "27.04.2019",
+  "conf": "средняя",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-nagrazhden-ordenom-druzhby-kitayskoy-narodnoy-respubliki",
+  "score": 27.5,
+  "hits": [
+   "kitaiskoi",
+   "narodnoi",
+   "respubliki",
+   "czinpin"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-respubliki-kazakhstan-elbasy-prinyal-uchastie-v-ceremonii-otkrytiya",
+    "score": 19.5
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-otvetil-na-voprosy-kitayskikh-sredstv-massovoy-informacii",
+    "score": 11
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/xxvii-sessiya-assamblei-naroda-kazakhstana-pod-predsedatelstvom-pervogo-prezidenta",
+    "score": 8
+   }
+  ]
+ },
+ {
+  "id": "26-28.04.19. Elbasy. KNR. 27.04.Forum. Brifing. Kulmanov.,xcode mix,112.1",
+  "date": "27.04.2019",
+  "conf": "средняя",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-nagrazhden-ordenom-druzhby-kitayskoy-narodnoy-respubliki",
+  "score": 26.5,
+  "hits": [
+   "kitaiskoi",
+   "narodnoi",
+   "respubliki",
+   "forum"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-respubliki-kazakhstan-elbasy-prinyal-uchastie-v-ceremonii-otkrytiya",
+    "score": 21
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-otvetil-na-voprosy-kitayskikh-sredstv-massovoy-informacii",
+    "score": 11
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/xxvii-sessiya-assamblei-naroda-kazakhstana-pod-predsedatelstvom-pervogo-prezidenta",
+    "score": 8
+   }
+  ]
+ },
+ {
+  "id": "26-28.04.19. Elbasy. KNR. 27.04.Forum. Brifing. Si Czinpin. PTS KNR.,xcode mix,111.1",
+  "date": "27.04.2019",
+  "conf": "средняя",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-nagrazhden-ordenom-druzhby-kitayskoy-narodnoy-respubliki",
+  "score": 30,
+  "hits": [
+   "kitaiskoi",
+   "narodnoi",
+   "respubliki",
+   "forum",
+   "czinpin"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-respubliki-kazakhstan-elbasy-prinyal-uchastie-v-ceremonii-otkrytiya",
+    "score": 24.5
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-otvetil-na-voprosy-kitayskikh-sredstv-massovoy-informacii",
+    "score": 11
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/xxvii-sessiya-assamblei-naroda-kazakhstana-pod-predsedatelstvom-pervogo-prezidenta",
+    "score": 8
+   }
+  ]
+ },
+ {
+  "id": "26-28.04.19. Elbasy. KNR. 28.04. Otlet Elbasy. X.O.,xcode mix,138.1",
+  "date": "28.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-nagrazhden-ordenom-druzhby-kitayskoy-narodnoy-respubliki",
+  "score": 52,
+  "hits": [
+   "kitaiskoi",
+   "narodnoi",
+   "respubliki",
+   "otlet"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/xxvii-sessiya-assamblei-naroda-kazakhstana-pod-predsedatelstvom-pervogo-prezidenta",
+    "score": 14
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-respubliki-kazakhstan-elbasy-prinyal-uchastie-v-ceremonii-otkrytiya",
+    "score": 12
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-izvestnym-akterom-dzheki-chanom",
+    "score": 11.1
+   }
+  ]
+ },
+ {
+  "id": "26-28.04.19. Elbasy. KNR. 28.04. Rassh.Vstrecha. Orden. Djavatarov.,xcode mix,114.1",
+  "date": "28.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-nagrazhden-ordenom-druzhby-kitayskoy-narodnoy-respubliki",
+  "score": 58,
+  "hits": [
+   "kitaiskoi",
+   "narodnoi",
+   "respubliki",
+   "orden"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/xxvii-sessiya-assamblei-naroda-kazakhstana-pod-predsedatelstvom-pervogo-prezidenta",
+    "score": 12
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-respubliki-kazakhstan-elbasy-prinyal-uchastie-v-ceremonii-otkrytiya",
+    "score": 12
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-otvetil-na-voprosy-kitayskikh-sredstv-massovoy-informacii",
+    "score": 7.4
+   }
+  ]
+ },
+ {
+  "id": "26-28.04.19. Elbasy. KNR. 28.04. Rassh.Vstrecha. Orden. Kulmanov.,xcode mix,115.1",
+  "date": "28.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-nagrazhden-ordenom-druzhby-kitayskoy-narodnoy-respubliki",
+  "score": 58,
+  "hits": [
+   "kitaiskoi",
+   "narodnoi",
+   "respubliki",
+   "orden"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/xxvii-sessiya-assamblei-naroda-kazakhstana-pod-predsedatelstvom-pervogo-prezidenta",
+    "score": 12
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-respubliki-kazakhstan-elbasy-prinyal-uchastie-v-ceremonii-otkrytiya",
+    "score": 12
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-otvetil-na-voprosy-kitayskikh-sredstv-massovoy-informacii",
+    "score": 7.4
+   }
+  ]
+ },
+ {
+  "id": "26-28.04.19. Elbasy. KNR. 28.04. Rassh.Vstrecha. Orden. Operator kanal.,xcode mix,143.1",
+  "date": "28.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-nagrazhden-ordenom-druzhby-kitayskoy-narodnoy-respubliki",
+  "score": 58,
+  "hits": [
+   "kitaiskoi",
+   "narodnoi",
+   "respubliki",
+   "orden"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/xxvii-sessiya-assamblei-naroda-kazakhstana-pod-predsedatelstvom-pervogo-prezidenta",
+    "score": 12
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-respubliki-kazakhstan-elbasy-prinyal-uchastie-v-ceremonii-otkrytiya",
+    "score": 12
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-otvetil-na-voprosy-kitayskikh-sredstv-massovoy-informacii",
+    "score": 7.4
+   }
+  ]
+ },
+ {
+  "id": "26-28.04.19. Elbasy. KNR. 28.04. Vstrecha s Si Czinpin. X.O.,xcode mix,110.1",
+  "date": "28.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-nagrazhden-ordenom-druzhby-kitayskoy-narodnoy-respubliki",
+  "score": 55,
+  "hits": [
+   "kitaiskoi",
+   "narodnoi",
+   "respubliki",
+   "czinpin"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/pervyy-prezident-respubliki-kazakhstan-elbasy-prinyal-uchastie-v-ceremonii-otkrytiya",
+    "score": 13
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/xxvii-sessiya-assamblei-naroda-kazakhstana-pod-predsedatelstvom-pervogo-prezidenta",
+    "score": 12
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-otvetil-na-voprosy-kitayskikh-sredstv-massovoy-informacii",
+    "score": 7.4
+   }
+  ]
+ },
+ {
+  "id": "29.04.19 ANK AO.1",
+  "date": "29.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/xxvii-sessiya-assamblei-naroda-kazakhstana-pod-predsedatelstvom-pervogo-prezidenta",
+  "score": 44,
+  "hits": [
+   "asamblei",
+   "naroda",
+   "kazahstana"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-05/elbasy-nursultan-nazarbaev-posetil-narodnye-gulyaniya-po-sluchayu-prazdnovaniya-dnya",
+    "score": 9.3
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-nagrazhden-ordenom-druzhby-kitayskoy-narodnoy-respubliki",
+    "score": 7
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-izvestnym-akterom-dzheki-chanom",
+    "score": 4
+   }
+  ]
+ },
+ {
+  "id": "29.04.19 ANK Elbasy A.O.,xcode mix,12.1",
+  "date": "29.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/xxvii-sessiya-assamblei-naroda-kazakhstana-pod-predsedatelstvom-pervogo-prezidenta",
+  "score": 44,
+  "hits": [
+   "asamblei",
+   "naroda",
+   "kazahstana"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-05/elbasy-nursultan-nazarbaev-posetil-narodnye-gulyaniya-po-sluchayu-prazdnovaniya-dnya",
+    "score": 9.3
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-nagrazhden-ordenom-druzhby-kitayskoy-narodnoy-respubliki",
+    "score": 7
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-izvestnym-akterom-dzheki-chanom",
+    "score": 4
+   }
+  ]
+ },
+ {
+  "id": "29.04.19 ANK krupniy plan, xcode mix,21.1",
+  "date": "29.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/xxvii-sessiya-assamblei-naroda-kazakhstana-pod-predsedatelstvom-pervogo-prezidenta",
+  "score": 44,
+  "hits": [
+   "asamblei",
+   "naroda",
+   "kazahstana"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-05/elbasy-nursultan-nazarbaev-posetil-narodnye-gulyaniya-po-sluchayu-prazdnovaniya-dnya",
+    "score": 9.3
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-nagrazhden-ordenom-druzhby-kitayskoy-narodnoy-respubliki",
+    "score": 7
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-izvestnym-akterom-dzheki-chanom",
+    "score": 4
+   }
+  ]
+ },
+ {
+  "id": "29.04.19 ANK PTS,xcode mix,19.1",
+  "date": "29.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/xxvii-sessiya-assamblei-naroda-kazakhstana-pod-predsedatelstvom-pervogo-prezidenta",
+  "score": 44,
+  "hits": [
+   "asamblei",
+   "naroda",
+   "kazahstana"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-05/elbasy-nursultan-nazarbaev-posetil-narodnye-gulyaniya-po-sluchayu-prazdnovaniya-dnya",
+    "score": 9.3
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-nagrazhden-ordenom-druzhby-kitayskoy-narodnoy-respubliki",
+    "score": 7
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-izvestnym-akterom-dzheki-chanom",
+    "score": 4
+   }
+  ]
+ },
+ {
+  "id": "29.04.19 ANK_PTS.2",
+  "date": "29.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/xxvii-sessiya-assamblei-naroda-kazakhstana-pod-predsedatelstvom-pervogo-prezidenta",
+  "score": 44,
+  "hits": [
+   "asamblei",
+   "naroda",
+   "kazahstana"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-05/elbasy-nursultan-nazarbaev-posetil-narodnye-gulyaniya-po-sluchayu-prazdnovaniya-dnya",
+    "score": 9.3
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-nagrazhden-ordenom-druzhby-kitayskoy-narodnoy-respubliki",
+    "score": 7
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-izvestnym-akterom-dzheki-chanom",
+    "score": 4
+   }
+  ]
+ },
+ {
+  "id": "29.04.19 ANK-62,xcode mix,279.1",
+  "date": "29.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/xxvii-sessiya-assamblei-naroda-kazakhstana-pod-predsedatelstvom-pervogo-prezidenta",
+  "score": 44,
+  "hits": [
+   "asamblei",
+   "naroda",
+   "kazahstana"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-05/elbasy-nursultan-nazarbaev-posetil-narodnye-gulyaniya-po-sluchayu-prazdnovaniya-dnya",
+    "score": 9.3
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-nagrazhden-ordenom-druzhby-kitayskoy-narodnoy-respubliki",
+    "score": 7
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-izvestnym-akterom-dzheki-chanom",
+    "score": 4
+   }
+  ]
+ },
+ {
+  "id": "29.04.19 SpecRep ANK",
+  "date": "29.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/xxvii-sessiya-assamblei-naroda-kazakhstana-pod-predsedatelstvom-pervogo-prezidenta",
+  "score": 44,
+  "hits": [
+   "asamblei",
+   "naroda",
+   "kazahstana"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-05/elbasy-nursultan-nazarbaev-posetil-narodnye-gulyaniya-po-sluchayu-prazdnovaniya-dnya",
+    "score": 9.3
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-nagrazhden-ordenom-druzhby-kitayskoy-narodnoy-respubliki",
+    "score": 7
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-izvestnym-akterom-dzheki-chanom",
+    "score": 4
+   }
+  ]
+ },
+ {
+  "id": "29.04.2019 ANK_Kakimbaev,xcode mix,259",
+  "date": "29.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/xxvii-sessiya-assamblei-naroda-kazakhstana-pod-predsedatelstvom-pervogo-prezidenta",
+  "score": 44,
+  "hits": [
+   "asamblei",
+   "naroda",
+   "kazahstana"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-05/elbasy-nursultan-nazarbaev-posetil-narodnye-gulyaniya-po-sluchayu-prazdnovaniya-dnya",
+    "score": 9.3
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-nagrazhden-ordenom-druzhby-kitayskoy-narodnoy-respubliki",
+    "score": 7
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-izvestnym-akterom-dzheki-chanom",
+    "score": 4
+   }
+  ]
+ },
+ {
+  "id": "29.04.2019 ANK_Kakimbaev-66,xcode mix,259.1",
+  "date": "29.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/xxvii-sessiya-assamblei-naroda-kazakhstana-pod-predsedatelstvom-pervogo-prezidenta",
+  "score": 44,
+  "hits": [
+   "asamblei",
+   "naroda",
+   "kazahstana"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-05/elbasy-nursultan-nazarbaev-posetil-narodnye-gulyaniya-po-sluchayu-prazdnovaniya-dnya",
+    "score": 9.3
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-nagrazhden-ordenom-druzhby-kitayskoy-narodnoy-respubliki",
+    "score": 7
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-izvestnym-akterom-dzheki-chanom",
+    "score": 4
+   }
+  ]
+ },
+ {
+  "id": "29.04.2019 ANK_Omarkulov,xcode mix,275,xcode mix,39.1",
+  "date": "29.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/xxvii-sessiya-assamblei-naroda-kazakhstana-pod-predsedatelstvom-pervogo-prezidenta",
+  "score": 44,
+  "hits": [
+   "asamblei",
+   "naroda",
+   "kazahstana"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-05/elbasy-nursultan-nazarbaev-posetil-narodnye-gulyaniya-po-sluchayu-prazdnovaniya-dnya",
+    "score": 9.3
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-nagrazhden-ordenom-druzhby-kitayskoy-narodnoy-respubliki",
+    "score": 7
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-izvestnym-akterom-dzheki-chanom",
+    "score": 4
+   }
+  ]
+ },
+ {
+  "id": "29.04.2019 ANK_Omarkulov-46_,xcode mix,296.1",
+  "date": "29.04.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-04/xxvii-sessiya-assamblei-naroda-kazakhstana-pod-predsedatelstvom-pervogo-prezidenta",
+  "score": 44,
+  "hits": [
+   "asamblei",
+   "naroda",
+   "kazahstana"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-05/elbasy-nursultan-nazarbaev-posetil-narodnye-gulyaniya-po-sluchayu-prazdnovaniya-dnya",
+    "score": 9.3
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/nursultan-nazarbaev-nagrazhden-ordenom-druzhby-kitayskoy-narodnoy-respubliki",
+    "score": 7
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-04/elbasy-nursultan-nazarbaev-vstretilsya-s-izvestnym-akterom-dzheki-chanom",
+    "score": 4
+   }
+  ]
+ },
+ {
+  "id": "29.04.2019 FNK_Omargaliev,xcode mix,274",
+  "date": "29.04.2019",
+  "conf": "низкая — нет совпадений слов",
+  "url": "",
+  "score": 0,
+  "hits": [],
+  "alts": []
+ },
+ {
+  "id": "29.07.19 Vstrecha Elbasy s B.Baibek. Dezhurn. (krupn.plan Elbasy).1",
+  "date": "29.07.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-07/elbasy-nursultan-nazarbaev-prinyal-pervogo-zamestitelya-predsedatelya-partii-nur-otan",
+  "score": 12,
+  "hits": [
+   "baibek"
+  ],
+  "alts": []
+ },
+ {
+  "id": "29.07.19 Vstrecha Elbasy s B.Baibek. Dezhurn.1",
+  "date": "29.07.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-07/elbasy-nursultan-nazarbaev-prinyal-pervogo-zamestitelya-predsedatelya-partii-nur-otan",
+  "score": 12,
+  "hits": [
+   "baibek"
+  ],
+  "alts": []
+ },
+ {
+  "id": "29.07.19 Vstrecha Elbasy s B.Baibek. X.O.1",
+  "date": "29.07.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-07/elbasy-nursultan-nazarbaev-prinyal-pervogo-zamestitelya-predsedatelya-partii-nur-otan",
+  "score": 12,
+  "hits": [
+   "baibek"
+  ],
+  "alts": []
+ },
+ {
+  "id": "29.07.19 Vstrecha Elbasy s PRK Tokaevym. Dezhurn.1",
+  "date": "29.07.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-07/elbasy-nursultan-nazarbaev-vstretilsya-s-prezidentom-kazakhstana-kasym-zhomartom",
+  "score": 32,
+  "hits": [
+   "prezident",
+   "tokaevim"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-07/elbasy-nursultan-nazarbaev-prinyal-pervogo-zamestitelya-predsedatelya-partii-nur-otan",
+    "score": 8
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-07/telefonnyy-razgovor-s-prezidentom-kyrgyzskoy-respubliki-sooronbaem-zheenbekovym-0",
+    "score": 8
+   }
+  ]
+ },
+ {
+  "id": "29.07.19 Vstrecha Elbasy s PRK Tokaevym. Ismailov.1",
+  "date": "29.07.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-07/elbasy-nursultan-nazarbaev-vstretilsya-s-prezidentom-kazakhstana-kasym-zhomartom",
+  "score": 32,
+  "hits": [
+   "prezident",
+   "tokaevim"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-07/elbasy-nursultan-nazarbaev-prinyal-pervogo-zamestitelya-predsedatelya-partii-nur-otan",
+    "score": 8
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-07/telefonnyy-razgovor-s-prezidentom-kyrgyzskoy-respubliki-sooronbaem-zheenbekovym-0",
+    "score": 8
+   }
+  ]
+ },
+ {
+  "id": "29.07.19 Vstrecha Elbasy s PRK Tokaevym. X.O.,xcode mix,159.1",
+  "date": "29.07.2019",
+  "conf": "высокая",
+  "url": "https://nazarbayev.kz/ru/news/2019-07/elbasy-nursultan-nazarbaev-vstretilsya-s-prezidentom-kazakhstana-kasym-zhomartom",
+  "score": 32,
+  "hits": [
+   "prezident",
+   "tokaevim"
+  ],
+  "alts": [
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-07/elbasy-nursultan-nazarbaev-prinyal-pervogo-zamestitelya-predsedatelya-partii-nur-otan",
+    "score": 8
+   },
+   {
+    "url": "https://nazarbayev.kz/ru/news/2019-07/telefonnyy-razgovor-s-prezidentom-kyrgyzskoy-respubliki-sooronbaem-zheenbekovym-0",
+    "score": 8
+   }
+  ]
+ },
+ {
+  "id": "ANK PTS",
+  "date": "",
+  "conf": "нет даты в имени файла",
+  "url": "",
+  "score": 0,
+  "hits": [],
+  "alts": []
+ }
+]

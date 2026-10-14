@@ -1,0 +1,54 @@
+{
+ "_comment": "Ручные уточнения партии «май 2019». match — подстрока имени файла.",
+ "exclude": [
+  {
+   "match": "PRK i D.Tusk",
+   "why": "встреча Президента РК К.-Ж.Токаева с Д.Туском, без Назарбаева"
+  }
+ ],
+ "notes": [
+  {
+   "match": "Karibaev",
+   "check": "На сайте: академик Серик КИРАБАЕВ (в имени файла — Karibaev/Karibaeva)."
+  },
+  {
+   "match": "Usmanov",
+   "check": "Новости о встрече с А.Усмановым на сайте нет (за 09–13.05.2019 проверено). Дату и событие уточнить.",
+   "keep_draft": true
+  },
+  {
+   "match": "17.05.2019_AEF",
+   "check": "Второй день АЭФ (17.05), Елбасы в кадре нет; ссылка — на новость об АЭФ 16.05.",
+   "lead": "XII Астанинский экономический форум, второй день. Конгресс-центр.",
+   "own_only": true
+  },
+  {
+   "match": "Foto Elbasy i PRK",
+   "lead": "XII Астанинский экономический форум. Церемония фотографирования Первого Президента РК – Елбасы Н.А.Назарбаева и Президента РК К.-Ж.Токаева."
+  },
+  {
+   "match": "Sarkisyan",
+   "check": "На сайте: Председатель Коллегии ЕЭК Тигран САРКИСЯН (не Президент Армении А.Саркисян)."
+  },
+  {
+   "match": "Chigeo Katsy",
+   "check": "Правильно: Шигео Катсу (Shigeo Katsu), президент Назарбаев Университета."
+  },
+  {
+   "match": "Saparbaeva",
+   "check": "Правильно: Бердибек Сапарбаев."
+  },
+  {
+   "match": "21.06.19 Almaty",
+   "check": "Дата 21.06.2019 подтверждена: на сайте в этот день конференция «30 лет лидерства»."
+  },
+  {
+   "match": "vruch diplomov NU. Otkr",
+   "check": "В файле два события: вручение дипломов и открытие Атлетического центра.",
+   "urls": [
+    "https://nazarbayev.kz/ru/news/2019-05/pervyy-prezident-kazakhstana-vruchil-diplomy-s-otlichiem-vypusknikam-nazarbaev",
+    "https://nazarbayev.kz/ru/news/2019-05/elbasy-prinyal-uchastie-v-ceremonii-otkrytiya-novogo-atleticheskogo-centra-nazarbaev"
+   ]
+  }
+ ]
+}
