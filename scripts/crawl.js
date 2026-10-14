@@ -33,20 +33,39 @@ async function get(url) {
     .filter(d => ymd(d) >= ymd(from) && ymd(d) <= ymd(to)).sort((a, b) => ymd(a).localeCompare(ymd(b)));
   if (!dates.length) throw new Error('В календаре сайта нет дат за этот период (или страница не загрузилась)');
   console.log('Дат с новостями:', dates.join(' '));
+  const save = async it => {
+    if (have.has(it.url)) return;
+    const a = await parse('parseArticle', await get(it.url));
+    db.push({ date: a.date || it.date, rubric: a.rubric, title: a.title || it.title, url: it.url, text: a.text, photos: a.photos });
+    have.add(it.url);
+    console.log(' ', a.date || it.date, (a.title || it.title).slice(0, 100), a.ok ? '' : '  !! текст не найден');
+    await sleep(1500);
+  };
+  const missed = new Set();    // даты, за которые фильтр сайта ничего не вернул (так бывает с новостями с 2023 г.)
   for (const d of dates) {
-    let url = `${BASE}/ru/news?date=${d}`;
+    let url = `${BASE}/ru/news?date=${d}`, got = 0;
     while (url) {
       const { items, next } = await parse('parseList', await get(url));
       await sleep(1500);
       for (const it of items) {
         if (it.date && it.date !== d) { console.warn('  ! другая дата в выдаче', d, it.date); continue; }
-        if (have.has(it.url)) continue;
-        const a = await parse('parseArticle', await get(it.url));
-        db.push({ date: a.date || it.date, rubric: a.rubric, title: a.title || it.title, url: it.url, text: a.text, photos: a.photos });
-        have.add(it.url);
-        console.log(' ', a.date || it.date, (a.title || it.title).slice(0, 100), a.ok ? '' : '  !! текст не найден');
-        await sleep(1500);
+        got++;
+        await save(it);
       }
+      url = next;
+    }
+    if (!got) missed.add(d);
+  }
+  // Запасной путь: общая лента (новые сверху) — до страницы, где все новости старше пропущенных дат.
+  if (missed.size) {
+    console.log('Фильтр по дате пуст для', missed.size, 'дат — добираем по ленте');
+    const oldest = Math.min(...[...missed].map(d => +ymd(d)));
+    let url = `${BASE}/ru/news?page=1`;
+    while (url) {
+      const { items, next } = await parse('parseList', await get(url));
+      await sleep(1500);
+      for (const it of items) if (missed.has(it.date)) await save(it);
+      if (!items.length || items.every(it => it.date && +ymd(it.date) < oldest)) break;
       url = next;
     }
   }

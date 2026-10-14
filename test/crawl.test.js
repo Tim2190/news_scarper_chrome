@@ -26,7 +26,8 @@ before(async () => {
       requested.push(url);
       const u = new URL(url);
       let html;
-      if (u.pathname === '/ru/news' && u.searchParams.get('date')) {
+      if (u.pathname === '/ru/news' && u.searchParams.get('date') === '19.03.2023') html = listPage('', '');
+      else if (u.pathname === '/ru/news' && u.searchParams.get('date')) {
         const d = u.searchParams.get('date'), [dd, mm, yy] = d.split('.');
         const ru = `${+dd} ${['','января','февраля','марта','апреля','мая','июня'][+mm]} ${yy}`;
         html = listPage(item(`a-${dd}${mm}-1001`, ru) + item(`b-${dd}${mm}-1002`, ru));
@@ -71,4 +72,13 @@ test('обновление останавливается на странице 
   const st = await status();
   assert.match(st.msg, /новых новостей больше нет/);
   assert.strictEqual(await page.evaluate(() => requested.length), n0 + 1);
+});
+
+test('за дату с пустым фильтром новости добираются из ленты', async () => {
+  await page.evaluate(() => DB.clear('articles'));
+  await page.evaluate(() => run({ mode: 'period', from: '20230301', to: '20230331' }));
+  const arts = await page.evaluate(() => DB.getAll('articles'));
+  assert.deepStrictEqual(arts.map(a => a.url),
+    ['https://nazarbayev.kz/ru/nursultan-nazarbaev-progolosoval-na-vyborah-deputatov-mazhilisa-parlamenta-i-maslihatov-respubliki-kazahstan-1923344']);
+  assert.match((await status()).msg, /Готово/);
 });

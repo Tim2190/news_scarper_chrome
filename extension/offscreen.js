@@ -81,11 +81,12 @@ async function crawlPeriod(from, to) {                  // from/to: 'ГГГГМ�
   if (!dates.length) return 'За выбранный период на сайте нет новостей (по данным календаря).';
   const done = (await DB.get('state', 'dates')) || { k: 'dates', list: {} };
   let i = 0;
+  const missed = new Set();      // фильтр сайта по дате пуст (так бывает с 2021–2022 гг. и новее) — доберём по ленте
   for (const d of dates) {
     i++;
     if (stopFlag) break;
     if (done.list[d]) continue;
-    let url = `${BASE}/ru/news?date=${d}`, ok = true;
+    let url = `${BASE}/ru/news?date=${d}`, ok = true, got = 0;
     while (url && !stopFlag) {
       await setStatus({ page: `${d} (${i}/${dates.length})`, msg: `Дата ${d}…` });
       const r = await fetchDoc(url);
@@ -97,12 +98,29 @@ async function crawlPeriod(from, to) {                  // from/to: 'ГГГГМ�
       for (const it of items) {
         if (stopFlag) { ok = false; break; }
         if (it.date && it.date !== d) continue;          // на всякий случай — только новости этой даты
+        got++;
         await saveItem(it, `дата ${d}`);
       }
       await pause();
       url = next;
     }
-    if (ok && !stopFlag) { done.list[d] = Date.now(); await DB.put('state', done); }
+    if (!got && ok && !stopFlag) missed.add(d);
+    else if (ok && !stopFlag) { done.list[d] = Date.now(); await DB.put('state', done); }
+  }
+  if (missed.size && !stopFlag) {
+    const oldest = Math.min(...[...missed].map(ymd).map(Number));
+    let url = `${BASE}/ru/news?page=1`, page = 1;
+    while (url && !stopFlag) {
+      await setStatus({ page: `лента, стр. ${page}`, msg: `Фильтр по дате пуст для ${missed.size} дат — ищу их в ленте…` });
+      const r = await fetchDoc(url);
+      if (r.error) return `Остановлено на странице ленты ${page}: ${r.error}. Нажмите кнопку ещё раз.`;
+      const { items, next } = parseList(r.doc);
+      for (const it of items) { if (stopFlag) break; if (missed.has(it.date)) await saveItem(it, `лента, стр. ${page}`); }
+      if (!items.length || items.every(it => it.date && +ymd(it.date) < oldest)) break;
+      url = next; page++;
+      await pause();
+    }
+    if (!stopFlag) { missed.forEach(d => { done.list[d] = Date.now(); }); await DB.put('state', done); }
   }
   return stopFlag ? 'Пауза. Нажмите кнопку ещё раз, чтобы продолжить.' : `Готово: обработано дат — ${dates.length}.`;
 }

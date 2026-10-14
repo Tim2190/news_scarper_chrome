@@ -124,10 +124,14 @@ for r in rows:
 for c, w in zip("ABCDEFGHIJ", (55, 12, 70, 18, 16, 45, 45, 50, 80, 16)):
     ws2.column_dimensions[c].width = w
 
-# Лист 3 — все собранные новости за период
+# Лист 3 — новости сайта за месяцы, к которым относятся файлы партии
+months = {(r["date"].year, r["date"].month) for r in rows if isinstance(r["date"], datetime)}
 ws3 = wb.create_sheet("Новости сайта")
 ws3.append(["Дата", "Рубрика", "Заголовок", "Ссылка", "Текст"])
 for a in news.values():
+    d = datetime.strptime(a["date"], "%d.%m.%Y") if a["date"] else None
+    if not d or (d.year, d.month) not in months:
+        continue
     ws3.append([datetime.strptime(a["date"], "%d.%m.%Y") if a["date"] else None, a["rubric"], a["title"], a["url"], a["text"]])
 for c, w in zip("ABCDE", (12, 14, 70, 50, 100)):
     ws3.column_dimensions[c].width = w
