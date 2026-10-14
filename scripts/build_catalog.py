@@ -1,7 +1,7 @@
 """Собирает итоговый каталог из черновика, сопоставлений и новостей.
 
 python3 scripts/build_catalog.py input/Каталог_2019_май_черновик.xlsx data/matches_2019_05.json \
-    data/news.json data/events_2019.json output/Каталог_2019_май.xlsx
+    data/news.json output/Каталог_2019_май.xlsx
 """
 import json
 import sys
@@ -10,11 +10,10 @@ from datetime import datetime
 from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Alignment, Font, PatternFill
 
-draft_path, matches_path, news_path, events_path, out_path = sys.argv[1:6]
+draft_path, matches_path, news_path, out_path = sys.argv[1:5]
 draft = load_workbook(draft_path).active
 matches = {m["id"]: m for m in json.load(open(matches_path, encoding="utf-8"))}
 news = {a["url"]: a for a in json.load(open(news_path, encoding="utf-8"))}
-events = json.load(open(events_path, encoding="utf-8"))
 
 NU_DIPLOMY = "https://nazarbayev.kz/ru/news/2019-05/pervyy-prezident-kazakhstana-vruchil-diplomy-s-otlichiem-vypusknikam-nazarbaev"
 NU_ATLET = "https://nazarbayev.kz/ru/news/2019-05/elbasy-prinyal-uchastie-v-ceremonii-otkrytiya-novogo-atleticheskogo-centra-nazarbaev"
@@ -28,24 +27,43 @@ EXCLUDE = [
 NOTES = [
     ("Karibaev", None, "На сайте: академик Серик КИРАБАЕВ (в имени файла — Karibaev/Karibaeva).", None),
     ("Usmanov", None, "Новости о встрече с А.Усмановым на сайте нет (за 09–13.05.2019 проверено). Дату и событие уточнить.", None),
-    ("17.05.2019_AEF", None, "Второй день АЭФ (17.05), Елбасы в кадре нет; ссылка — на новость об АЭФ 16.05.", "XII Астанинский экономический форум, второй день. Без участия Елбасы. Конгресс-центр."),
+    ("17.05.2019_AEF", None, "Второй день АЭФ (17.05), Елбасы в кадре нет; ссылка — на новость об АЭФ 16.05.", "XII Астанинский экономический форум, второй день. Конгресс-центр."),
     ("Foto Elbasy i PRK", None, "", "XII Астанинский экономический форум. Церемония фотографирования Первого Президента РК – Елбасы Н.А.Назарбаева и Президента РК К.-Ж.Токаева."),
     ("Sarkisyan", None, "На сайте: Председатель Коллегии ЕЭК Тигран САРКИСЯН (не Президент Армении А.Саркисян).", None),
     ("Chigeo Katsy", None, "Правильно: Шигео Катсу (Shigeo Katsu), президент Назарбаев Университета.", None),
     ("Saparbaeva", None, "Правильно: Бердибек Сапарбаев.", None),
     ("21.06.19 Almaty", None, "Дата 21.06.2019 подтверждена: на сайте в этот день конференция «30 лет лидерства».", None),
     ("vruch diplomov NU. Otkr", [NU_DIPLOMY, NU_ATLET], "В файле два события: вручение дипломов и открытие Атлетического центра.",
-     "Вручение дипломов выпускникам Назарбаев Университета и открытие нового Атлетического центра НУ с участием Первого Президента РК – Елбасы Н.А.Назарбаева."),
+     None),
 ]
 
 
-def describe(event_text, kind, operator):
-    parts = [event_text.rstrip(".") + "."]
-    if kind and not ("фотограф" in kind.lower() and "фотограф" in event_text.lower()):  # не повторять тип, если он уже в описании
-        parts.append(kind[0].upper() + kind[1:].rstrip(".") + ".")
+# Файлы, где описание — только наша строка, без текста новости (событие в кадре не совпадает с новостью).
+OWN_TEXT_ONLY = ["17.05.2019_AEF"]
+
+
+def site_text(url):
+    """Заголовок и полный текст новости с сайта, без подписи пресс-службы и повтора заголовка."""
+    a = news[url]
+    title = a["title"].strip().rstrip(".")
+    lines = [ln.strip() for ln in a["text"].split("\n") if ln.strip()]
+    lines = [ln for ln in lines if not ln.startswith("Пресс-служба")]
+    if lines and lines[0].startswith(title):
+        lines[0] = lines[0][len(title):].strip()
+    return title + ".\n" + "\n".join(ln for ln in lines if ln)
+
+
+def describe(lead, urls, kind, operator):
+    blocks = [lead.rstrip(".") + "."] if lead else []
+    blocks += [site_text(u) for u in urls if u in news]
+    tail = []
+    if kind and not ("фотограф" in kind.lower() and lead and "фотограф" in lead.lower()):  # не повторять тип, если он уже в описании
+        tail.append(kind[0].upper() + kind[1:].rstrip(".") + ".")
     if operator:
-        parts.append(f"Оператор: {operator.rstrip('.')}.")
-    return " ".join(parts)
+        tail.append(f"Оператор: {operator.rstrip('.')}.")
+    if tail:
+        blocks.append(" ".join(tail))
+    return "\n\n".join(blocks)
 
 
 rows = []
@@ -63,8 +81,12 @@ for r in draft.iter_rows(min_row=2, values_only=True):
                 urls = extra_urls
             notes.append(note)
             text_override = override or text_override
-    event = text_override or (events.get(urls[0]) if urls else None)
-    descr = describe(event, kind, operator) if event else draft_descr
+    if any(key in fid for key in OWN_TEXT_ONLY):
+        descr = describe(text_override, [], kind, operator)
+    elif urls:
+        descr = describe(text_override, urls, kind, operator)
+    else:
+        descr = draft_descr  # новости нет (Усманов) — описание из черновика
     conf = m.get("conf", "")
     if not urls:
         conf = "не найдено"
