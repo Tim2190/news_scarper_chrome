@@ -1,0 +1,11 @@
+{
+  "name": "news-grabber",
+  "private": true,
+  "description": "Сбор новостей nazarbayev.kz и сопоставление с каталогом видеоархива",
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.56.1"
+  }
+}

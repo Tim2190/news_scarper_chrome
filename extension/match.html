@@ -1,0 +1,27 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8">
+<title>Сопоставление с каталогом</title>
+<style>
+ body{font:14px system-ui,sans-serif;margin:16px;max-width:1400px}
+ textarea{width:100%;height:160px;font:12px monospace}
+ button{padding:8px 14px;margin:6px 6px 6px 0;cursor:pointer}
+ table{border-collapse:collapse;width:100%;font-size:12px;margin-top:10px}
+ td,th{border:1px solid #ccc;padding:4px;vertical-align:top;text-align:left}
+ th{background:#f3f3f3;position:sticky;top:0}
+ .hi{background:#e8f7e8}.mid{background:#fff8dc}.lo{background:#fde8e8}
+ select{max-width:420px}
+ .hint{color:#666}
+</style></head><body>
+<h2>Сопоставление файлов видеоархива с новостями</h2>
+<p class="hint">Вставьте имена файлов — по одному в строке (вывод <code>dir /b</code>), или скопируйте из Google Таблицы
+две колонки <b>ID | Дата</b>. Дата берётся из второй колонки, иначе из имени файла. Новость ищется в базе расширения
+за ту же дату ± <input type="number" id="win" value="2" min="0" max="7" style="width:3em"> дн. по совпадению фамилий и ключевых слов.</p>
+<textarea id="input" placeholder="28.05.19 Elbasy i Putin. X.O.,xcode mix,42.1&#10;31.05.19 Vstrecha Elbasy s D.Tuskom. Abilov.,xcode mix,40.1"></textarea>
+<div>
+ <button id="go"><b>Сопоставить</b></button>
+ <button id="copy">Копировать для Google Таблиц</button>
+ <button id="csv">Скачать CSV</button>
+ <span id="status" class="hint"></span>
+</div>
+<table id="out"></table>
+<script src="db.js"></script><script src="match.js"></script><script src="match-ui.js"></script>
+</body></html>

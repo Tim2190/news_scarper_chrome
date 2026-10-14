@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Архив новостей nazarbayev.kz",
+  "version": "3.0",
+  "description": "Собирает новости nazarbayev.kz (дата, рубрика, заголовок, ссылка, полный текст) в локальную базу, выгружает CSV и сопоставляет с файлами видеоархива.",
+  "permissions": [
+    "offscreen",
+    "unlimitedStorage",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+    "https://nazarbayev.kz/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Архив новостей"
+  }
+}
