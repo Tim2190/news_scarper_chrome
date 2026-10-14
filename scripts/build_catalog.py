@@ -19,15 +19,17 @@ events = json.load(open(events_path, encoding="utf-8"))
 NU_DIPLOMY = "https://nazarbayev.kz/ru/news/2019-05/pervyy-prezident-kazakhstana-vruchil-diplomy-s-otlichiem-vypusknikam-nazarbaev"
 NU_ATLET = "https://nazarbayev.kz/ru/news/2019-05/elbasy-prinyal-uchastie-v-ceremonii-otkrytiya-novogo-atleticheskogo-centra-nazarbaev"
 
+# Файлы не по теме каталога (без участия Н.А.Назарбаева) — в каталог не попадают.
+EXCLUDE = [
+    "PRK i D.Tusk",  # встреча Президента РК К.-Ж.Токаева с Д.Туском
+]
+
 # Ручные уточнения по результатам проверки новостей: (подстрока ID) -> (доп. ссылки, текст «Проверить», замена описания)
 NOTES = [
     ("Karibaev", None, "На сайте: академик Серик КИРАБАЕВ (в имени файла — Karibaev/Karibaeva).", None),
     ("Usmanov", None, "Новости о встрече с А.Усмановым на сайте нет (за 09–13.05.2019 проверено). Дату и событие уточнить.", None),
     ("17.05.2019_AEF", None, "Второй день АЭФ (17.05), Елбасы в кадре нет; ссылка — на новость об АЭФ 16.05.", "XII Астанинский экономический форум, второй день. Без участия Елбасы. Конгресс-центр."),
-    ("PRK i D.Tusk", None, "PRK = Президент РК — в мае 2019 это К.-Ж.Токаев. Проверить по видео, чья это встреча с Д.Туском.",
-     "Встреча Президента РК (PRK) с Председателем Европейского совета Д.Туском."),
-    ("Foto Elbasy i PRK", None, "PRK = Президент РК К.-Ж.Токаев (с 20.03.2019) — проверить по видео.",
-     "XII Астанинский экономический форум. Фотографирование Первого Президента РК – Елбасы Н.А.Назарбаева и Президента РК К.-Ж.Токаева (проверить)."),
+    ("Foto Elbasy i PRK", None, "", "XII Астанинский экономический форум. Церемония фотографирования Первого Президента РК – Елбасы Н.А.Назарбаева и Президента РК К.-Ж.Токаева."),
     ("Sarkisyan", None, "На сайте: Председатель Коллегии ЕЭК Тигран САРКИСЯН (не Президент Армении А.Саркисян).", None),
     ("Chigeo Katsy", None, "Правильно: Шигео Катсу (Shigeo Katsu), президент Назарбаев Университета.", None),
     ("Saparbaeva", None, "Правильно: Бердибек Сапарбаев.", None),
@@ -39,7 +41,7 @@ NOTES = [
 
 def describe(event_text, kind, operator):
     parts = [event_text.rstrip(".") + "."]
-    if kind:
+    if kind and not ("фотограф" in kind.lower() and "фотограф" in event_text.lower()):  # не повторять тип, если он уже в описании
         parts.append(kind[0].upper() + kind[1:].rstrip(".") + ".")
     if operator:
         parts.append(f"Оператор: {operator.rstrip('.')}.")
@@ -49,7 +51,7 @@ def describe(event_text, kind, operator):
 rows = []
 for r in draft.iter_rows(min_row=2, values_only=True):
     fid, date, draft_descr, kind, operator, check = (list(r) + [None] * 8)[:6]
-    if not fid:
+    if not fid or any(key in fid for key in EXCLUDE):
         continue
     m = matches.get(fid, {})
     urls = [m["url"]] if m.get("url") else []
@@ -120,4 +122,4 @@ for sh in (ws, ws2, ws3):
 
 wb.save(out_path)
 found = sum(1 for r in rows if r["urls"])
-print(f"Файлов: {len(rows)}, со ссылкой на новость: {found}, на проверку: {sum(1 for r in rows if r['check'])}")
+print(f"Исключено (не Назарбаев): {len(EXCLUDE)}. Файлов: {len(rows)}, со ссылкой на новость: {found}, на проверку: {sum(1 for r in rows if r['check'])}")
